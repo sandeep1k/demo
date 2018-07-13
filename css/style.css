@@ -1,12 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Viga|Roboto:200,400,500,600,700');
-body{font-family: 'Roboto', sans-serif; background: #F9F9FA;}
+body{font-family: 'Roboto', sans-serif;}
 header {
+	height:90vh;
 	color: #fff;
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
     background-image: url('../images/home-bg.svg'), url('../images/home-bg-bottom.svg'),linear-gradient(-45deg, #f27623, #ef4132, #f27623, #ef4132);
+	overflow: hidden;
+	position: relative;
+}
+header:after {
+    background: transparent url(../images/btm-design.svg) top center no-repeat;
+    -webkit-background-size: 5223px 186px;
+    background-size: 5223px 186px;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 168px;
+    left: 0;
+    position: absolute;
+    width: 100%;
 }
 
 .services{
@@ -97,11 +112,6 @@ nav {
 	.minH-360 {min-height: 360px !important; }
 	
 }
-
-
-
-
-
 
 
 h1,h2,h3,h4 {font-weight: 600 !important;}
