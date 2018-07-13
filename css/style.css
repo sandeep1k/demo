@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Viga|Roboto:200,400,500,600,700');
 body{font-family: 'Roboto', sans-serif; background: #F9F9FA;}
 header {
-	height: 80vh;
 	color: #fff;
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
@@ -22,6 +21,9 @@ header {
     width: 18%;
     padding: 10px;
 }
+
+
+
 
 .box-shadow-none{box-shadow: none!important}
 
@@ -73,9 +75,35 @@ nav {
         width: 60%;
         padding: 10px;
 	}
+
+
+
 	.p-spec{ padding: 0 0 0 0 !important;}
 	h1,h2,h3,h4 {font-weight: 600 !important;}
 }
+
+@media (min-width:992px) and (max-width:1200px){
+
+	.logoClass {
+        width: 35%;
+        padding: 10px;
+	}
+}
+
+
+
+@media (min-width:1201px) and (max-width:1365px) {
+	.minH-270 {min-height: 270px !important; }
+	.minH-360 {min-height: 360px !important; }
+	
+}
+
+
+
+
+
+
+
 h1,h2,h3,h4 {font-weight: 600 !important;}
 .main-gredient{ background: linear-gradient(-45deg, #f27623, #ef4132) !important;}
 
