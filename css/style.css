@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Viga:200,400,500,600');
-body{font-family: 'Roboto', sans-serif; background: #F9F9FA}
+body{font-family: 'Roboto', sans-serif; background: #F9F9FA, font-weight: 400 !important;}
 header {
 	height: 80vh;
 	color: #fff;
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
-    background-image: url('../images/home-bg.svg'), url('../images/home-bg-bottom.svg'),linear-gradient(-45deg, #f27623, #ef4132, #f27623, #ef4132);
+    	animation: Gradient 15s ease infinite;
+    	background-image: url('../images/home-bg.svg'), url('../images/home-bg-bottom.svg'),linear-gradient(-45deg, #f27623, #ef4132, #f27623, #ef4132);
 }
 
 .services{
