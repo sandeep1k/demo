@@ -34,10 +34,12 @@ header:after {
 }
 .logoClass {
     width: 18%;
-    padding: 10px;
+    padding: 5px;
 }
 
-
+.footer {
+	 background: #333;
+}
 
 
 .box-shadow-none{box-shadow: none!important}
@@ -87,8 +89,7 @@ nav {
 		font-size: 35px !important;
 	}
     .logoClass {
-        width: 60%;
-        padding: 10px;
+        width: 47%;
 	}
 
 
@@ -114,11 +115,6 @@ nav {
 }
 
 
-
-
-
-
-
 h1,h2,h3,h4 {font-weight: 600 !important;}
 .main-gredient{ background: linear-gradient(-45deg, #f27623, #ef4132) !important;}
 
@@ -133,11 +129,12 @@ h1,h2,h3,h4 {font-weight: 600 !important;}
 .bold-font:hover{ background-size: 100% 88%;
     color:#ef4132;}
 
-.who-we-are { background: #fff; padding: 1%; }
+.who-we-are { background: #fafafa; padding: 1%; overflow: hidden;}
 .p-spec { padding: 1px 135px; font-size: 18px;}
 .mar-tb25{margin: 25px 0;}
 .mar-tb40{margin: 40px 0;}
 .mar-top20{margin-top:20px}
+.mar-bottom{margin-bottom:0 !important }
 
 .pad-top10{ padding-top: 10px !important;}
 .pad-bottom10{ padding-bottom: 10px!important;}
