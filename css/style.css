@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Viga|Roboto:200,400,500,600,700');
 body{font-family: 'Roboto', sans-serif;}
 header {
-	height:90vh;
+	
 	color: #fff;
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
@@ -23,30 +23,79 @@ header:after {
     position: absolute;
     width: 100%;
 }
-
-.services{
-	height: 90vh;
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
-    background-image: url('../images/home-bg.svg'), url('../images/home-bg-bottom.svg'),linear-gradient(-45deg, #f27623, #ef4132, #f27623, #ef4132);
+.carousel .indicators .indicator-item { background-color: #09090980 !important}
+.carousel .indicators .indicator-item.active {
+    background-color: #f27025 !important;
 }
+
+.copy-r { background:#ef4132; padding:15px 0; color:#ffffff8a; float:left; width:100%; }
+img{min-width:100%;}
+
 .logoClass {
-    width: 18%;
+    width: 19%;
     padding: 5px;
 }
 
-.footer {
-	 background: #333;
-}
+footer { padding:40px 0 !important; color:#fff;}
+footer a {color:#fff;}
+h6{ line-height:30px !important} 
+	
+.banner-h1{ font-size:45px}
 
+.sidenav-overlay{z-index: 996 !important;}
+.sidenav {text-align:left !important}
+
+.sidenav .collapsible-header{ padding: 0 32px !important;}
 
 .box-shadow-none{box-shadow: none!important}
+.btn-white{ border: 2px solid #fff !important;;
+    background: none !important;}
 
-nav {
-    background: none !important; 
+	.bg-orange{background:#f27124; padding:25px 0}
+	
+.services h5{ font-size:25px; font-weight:500}
+.services ul li a:hover div.card-panel{ background:linear-gradient(-45deg, #f27623, #ef4132); color:#fff;
+	transition: box-shadow .25s, -webkit-box-shadow .25s;
+    box-shadow: 0px 20px 20px #a3a3a3;     
+	transform: translate(0,-20px);
+    transition-delay: 0s; transition: all 250ms cubic-bezier(.02,.01,.47,1) 0s}
+	
+	.services ul li a div.card-panel {
+		    transition: all 250ms cubic-bezier(.02,.01,.47,1) 0s;
+	}
+
+.services ul li a div object {
+	padding: 10px!important;
+    border-radius: 3px !important;
+    background: #f7f5f5 !important;
+	margin-left:10px !important;
 }
+
+.services ul li a {color:#000 !important}
+
+
+
+.parallax { 
+   
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.showcase ul li a { color:#000}
+.showcase ul li a div {
+	 transition: all 250ms cubic-bezier(.02,.01,.47,1) 0s;
+}
+.showcase ul li a div:hover {
+	    box-shadow: 0px 20px 20px #a3a3a3;     
+	transform: translate(0,-20px);
+    transition-delay: 0s; transition: all 250ms cubic-bezier(.02,.01,.47,1) 0s}
+	
+}
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
@@ -83,15 +132,21 @@ nav {
 	}
 }
 @media (min-width:0px) and (max-width:600px){
-	body{text-align: center;}
+
 	p{font-size:16px;}
 	.indexP-text h1{
 		font-size: 35px !important;
 	}
     .logoClass {
         width: 47%;
+		padding:10px;
 	}
-
+	header{background-size: 2000% 200% !important;}
+	ul.clnt-logo li { padding:0 !important;}
+ul.clnt-logo li object {   
+		
+		width: 100px !important;
+	}
 
 
 	.p-spec{ padding: 0 0 0 0 !important;}
@@ -101,11 +156,17 @@ nav {
 @media (min-width:992px) and (max-width:1200px){
 
 	.logoClass {
-        width: 35%;
+        width: 25%;
         padding: 10px;
 	}
+
 }
 
+@media (min-width:768px) and (max-width:1024px){
+	
+	.p-spec {padding: 1px 15px !important;}
+	.services ul li a div.card-panel {min-height: 300px !important;}	
+}
 
 
 @media (min-width:1201px) and (max-width:1365px) {
@@ -115,10 +176,36 @@ nav {
 }
 
 
+
+
+
+
+
 h1,h2,h3,h4 {font-weight: 600 !important;}
-.main-gredient{ background: linear-gradient(-45deg, #f27623, #ef4132) !important;}
+.main-gredient{ background: linear-gradient(-45deg, #f27623, #ef4132) !important; 
+float: left;width: 100%;}
 
 .indexP-text h1 {font-weight: 200; font-family: 'Viga';}
+
+.dropdown-content li>a, .dropdown-content li>span{
+	color: #3e3d3d !important;
+}
+ul.tell-project li { 
+color:#fff;
+border:1px solid #fff;
+padding:0 15px;
+width:70%;
+border-radius:10px;
+}
+
+
+ul.clnt-logo li{     
+float: left;
+    padding: 12px;
+    height: 50px !important;
+    margin: 20px;
+	width: 120px
+	}
 
  .bold-font{ 
     background-image: linear-gradient(120deg, #fff 0%, #fff 100%);
@@ -129,11 +216,11 @@ h1,h2,h3,h4 {font-weight: 600 !important;}
 .bold-font:hover{ background-size: 100% 88%;
     color:#ef4132;}
 
-.who-we-are { background: #fafafa; padding: 1%; overflow: hidden;}
+.who-we-are { background:url('../images/bg-contact-form.jpg') no-repeat 0 0 #ededed; padding: 10px; float:left; width:100%;}
 .p-spec { padding: 1px 135px; font-size: 18px;}
-.mar-tb25{margin: 25px 0;}
-.mar-tb40{margin: 40px 0;}
-.mar-top20{margin-top:20px}
+.mar-tb25{margin: 25px 0 !important;}
+.mar-tb40{margin: 40px 0 !important;;}
+.mar-top20{margin-top:20px !important}
 .mar-bottom{margin-bottom:0 !important }
 
 .pad-top10{ padding-top: 10px !important;}
