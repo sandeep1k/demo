@@ -846,6 +846,11 @@ M.AutoInit();
     fullWidth: true,
     indicators: true
   });
+	   
+ function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
         
         
 	
