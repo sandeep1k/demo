@@ -835,22 +835,25 @@
     
 	<script type="text/javascript" src="js/materialize.min.js"></script>
     
-   <script>
+    <script>
 
 M.AutoInit();
    $(document).ready(function(){ 
     $(".dropdown-trigger").dropdown();
 	$('.sidenav').sidenav();
 	 $('select').formSelect();
+	 
 	 $('.carousel.carousel-slider').carousel({
     fullWidth: true,
-    indicators: true
+    indicators: true,
+	
   });
-	   
- function autoplay() {
+  autoplay()   
+function autoplay() {
     $('.carousel').carousel('next');
     setTimeout(autoplay, 4500);
 }
+ 
         
         
 	
