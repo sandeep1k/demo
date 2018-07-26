@@ -1,15 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Viga|Roboto:200,400,500,600,700');
-body{font-family: 'Roboto', sans-serif;}
+/* 
+Colors:
+Primary: #ef4132
+Secondary: #f27623
+
+Light Grey: #f1f1f1
+Light Orange: #f15f26
+Drak Orange #ff3828
+Black #101010
+
+*/@import url('https://fonts.googleapis.com/css?family=Roboto:200,400,500,600,700');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{font-family: 'Roboto', sans-serif; color:#101010 }
 header {
-	
-	color: #fff;
-	background-size: 400% 400%;
+	animation: Gradient 15s ease infinite;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
-    background-image: url('../images/home-bg.svg'), url('../images/home-bg-bottom.svg'),linear-gradient(-45deg, #f27623, #ef4132, #f27623, #ef4132);
+	background-size: 400% 400%;
+	background-image: url('../images/home-bg.svg'), url('../images/home-bg-bottom.svg'),linear-gradient(-45deg, #f27623, #ef4132, #f27623, #ef4132);
+	color: #fff;
 	overflow: hidden;
 	position: relative;
+	height: 90vh;
 }
 header:after {
     background: transparent url(../images/btm-design.svg) top center no-repeat;
@@ -31,7 +43,7 @@ header:after {
 }
 .carousel .indicators .indicator-item { background-color: #09090980 !important}
 .carousel .indicators .indicator-item.active {
-    background-color: #f27025 !important;
+    background-color: #ef4132 !important;
 }
 
 .copy-r { background:#ef4132; padding:15px 0; color:#ffffff8a; float:left; width:100%; }
@@ -48,12 +60,17 @@ nav .active {
 
 img { overflow:hidden}
 
+nav ul a:hover {
+   
+ box-shadow: inset 0px 2px #ef4631;
+}
 
 footer { padding:40px 0 !important; color:#fff;}
 footer a {color:#fff;}
 h6{ line-height:30px !important} 
 	
-.banner-h1{ font-size:45px}
+.banner-h1{ font-size:45px;letter-spacing: 1.5px; text-transform: uppercase;}
+.indexP-text h5 { font-size: 20px; letter-spacing: 1px}
 
 .sidenav-overlay{z-index: 996 !important;}
 .sidenav {text-align:left !important}
@@ -64,7 +81,7 @@ h6{ line-height:30px !important}
 .btn-white{ border: 2px solid #fff !important;;
     background: none !important;}
 
-	.bg-orange{background:#f27124; padding:25px 0}
+	.bg-orange{background:#ef4132; padding:25px 0}
 	
 .services h5{ font-size:25px; font-weight:500}
 .services ul li a:hover div.card-panel{ background:linear-gradient(-45deg, #f27623, #ef4132); color:#fff;
@@ -94,7 +111,7 @@ h6{ line-height:30px !important}
 	transform: translate(0,-20px);
     transition-delay: 0s; transition: all 250ms cubic-bezier(.02,.01,.47,1) 0s}
 	
-}
+
 
 @-webkit-keyframes Gradient {
 	0% {
@@ -134,20 +151,24 @@ h6{ line-height:30px !important}
 @media (min-width:0px) and (max-width:600px){
 
 	p{font-size:16px;}
+	.indexP-text {text-align: center}
 	.indexP-text h1{
-		font-size: 35px !important;
+		font-size: 30px !important;
+		margin: 0px;
 	}
+	.indexP-text h5 { font-size: 18px; letter-spacing: 1px}
     .logoClass {
         width: 47%;
 		padding:10px;
 	}
-	header{background-size: 2000% 200% !important;}
+	header{background-size: 2000% 200% !important; height: 100vh;}
 	ul.clnt-logo li { padding:0 !important;}
 ul.clnt-logo li object {   
 		
 		width: 100px !important;
 	}
 	
+	.indexP-text { padding: 1% 0 !important;}
 
 	.p-spec{ padding: 0 0 0 0 !important;}
 	h1,h2,h3,h4 {font-weight: 600 !important;}
@@ -177,18 +198,16 @@ ul.clnt-logo li object {
 
 
 
-
-
-
+.indexP-text > .carousel { height: 95vh !important;}
 
 h1,h2,h3,h4 {font-weight: 600 !important;}
 .main-gredient{ background: linear-gradient(-45deg, #f27623, #ef4132) !important; 
 float: left;width: 100%;}
-
-.indexP-text h1 {font-weight: 200; font-family: 'Viga';}
+.indexP-text { padding: 5% 0 !important;}
+.indexP-text h1 {font-weight: 700 !important;}
 
 .dropdown-content li>a, .dropdown-content li>span{
-	color: #3e3d3d !important;
+	color: #101010 !important;
 }
 ul.tell-project li { 
 color:#fff;
@@ -207,16 +226,11 @@ float: left;
 	width: 120px
 	}
 
- .bold-font{ 
-    background-image: linear-gradient(120deg, #fff 0%, #fff 100%);
-    background-repeat: no-repeat;
-    background-size: 100% 0.1em;
-    background-position: 0 88%;
-    transition: background-size 0.25s ease-in;} 
-.bold-font:hover{ background-size: 100% 88%;
-    color:#ef4132;}
 
 .who-we-are { background:url('../images/bg-contact-form.jpg') no-repeat 0 0 #ededed; padding: 10px; float:left; width:100%;}
+ul.protfolio li a img { max-width: 100%;}
+
+.pad-tb2p{padding: 2% 0}
 .p-spec { padding: 1px 135px; font-size: 18px;}
 .mar-tb25{margin: 25px 0 !important;}
 .mar-tb40{margin: 40px 0 !important;;}
