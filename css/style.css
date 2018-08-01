@@ -9,7 +9,7 @@ Drak Orange #ff3828
 Black #101010
 
 */
-@import url('../font/flaticon.css');
+@import url('./font/flaticon.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700|Poppins:300,400,500,600');
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
