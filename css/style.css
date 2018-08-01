@@ -8,10 +8,13 @@ Light Orange: #f15f26
 Drak Orange #ff3828
 Black #101010
 
-*/@import url('https://fonts.googleapis.com/css?family=Roboto:200,400,500,600,700');
+*/
+@import url('../font/flaticon.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700|Poppins:300,400,500,600');
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
-body{font-family: 'Roboto', sans-serif; color:#101010 }
+body{font-family: 'Poppins', sans-serif;  color: rgba(0,0,0,0.65); }
+
 header {
 	animation: Gradient 15s ease infinite;
 	-webkit-animation: Gradient 15s ease infinite;
@@ -69,8 +72,8 @@ footer { padding:40px 0 !important; color:#fff;}
 footer a {color:#fff;}
 h6{ line-height:30px !important} 
 	
-.banner-h1{ font-size:45px;letter-spacing: 1.5px; text-transform: uppercase;}
-.indexP-text h5 { font-size: 20px; letter-spacing: 1px}
+.banner-h1{ font-size:45px;letter-spacing: 1.5px; text-transform: uppercase; color:#fff;}
+.indexP-text h5 { font-size: 20px; letter-spacing: 1px; color:#ffffff85;}
 
 .sidenav-overlay{z-index: 996 !important;}
 .sidenav {text-align:left !important}
@@ -101,8 +104,7 @@ h6{ line-height:30px !important}
 	margin-left:10px !important;
 }
 
-.services ul li a {color:#000 !important}
-.showcase ul li a { color:#000}
+.services ul li a {color:#2d2d43 !important}
 .showcase ul li a div {
 	 transition: all 250ms cubic-bezier(.02,.01,.47,1) 0s;
 }
@@ -165,11 +167,7 @@ h6{ line-height:30px !important}
 		padding:10px;
 	}
 	header{background-size: 2000% 200% !important; height: 100vh;}
-	ul.clnt-logo li { padding:0 !important;}
-ul.clnt-logo li object {   
-		
-		width: 100px !important;
-	}
+
 	
 	.indexP-text { padding: 1% 0 !important;}
 
@@ -203,14 +201,15 @@ ul.clnt-logo li object {
 
 .indexP-text > .carousel { height: 95vh !important;}
 
-h1,h2,h3,h4 {font-weight: 600 !important;}
+h1,h2,h3,h4 {font-weight: 600 !important; color: #2d2d43}
+
 .main-gredient{ background: linear-gradient(-45deg, #f27623, #ef4132) !important; 
 float: left;width: 100%;}
 .indexP-text { padding: 5% 0 !important;}
 .indexP-text h1 {font-weight: 700 !important;}
 
 .dropdown-content li>a, .dropdown-content li>span{
-	color: #101010 !important;
+	color: #2d2d43 !important;
 }
 ul.tell-project li { 
 color:#fff;
@@ -220,7 +219,7 @@ width:70%;
 border-radius:10px;
 }
 
-
+ul.tell-project li h3 {color:#fff;}
 ul.clnt-logo li{     
 float: left;
     padding: 12px;
@@ -229,8 +228,93 @@ float: left;
 	width: 120px
 	}
 
+.main-wrapper {
+	position: relative;
+	}
+.main-wrapper p {line-height: 35px; margin: 32px 0 40px 0; }
+.main-wrapper h2 { line-height: 60px; font-size: 40px; margin-left: -65px;}
+.main-wrapper h4 { font-size: 24px; font-weight: 500 !important;}	
+.main-wrapper h4::before {
+		content: "\f114";
+		font-family: Flaticon;
+		font-size: 40px;
+		position: absolute;
+		top: 248px;
+		left: -50px;
+		font-weight: bold;
+		color: #ef4132;
+	}
 
-.who-we-are { background:url('../images/bg-contact-form.jpg') no-repeat 0 0 #ededed; padding: 10px; float:left; width:100%;}
+.who-we-are { background:url('../images/shape-3.png') no-repeat center; float:left; width:100%;}
+.aboutImgBox { margin-left: -20%; width: 95%; margin-top: 10%;}
+h2 {
+    font-size: 40px !important;
+}
+.what-we-do {
+	text-align: center;
+	
+}
+  .what-we-do h3 {
+    font-size: 30px;
+    font-weight: 300 !important;
+    line-height: 45px;
+    margin: 0 auto;
+    width: 75%;
+}
+.what-we-do .container>h6 {
+    color: rgba(37,47,62,0.8);
+    margin: 30px 0 50px 0;
+}
+
+.what-we-do .single-block {
+    padding: 0 25px;
+	margin-bottom: 50px;
+	
+    font-weight: normal;
+}
+
+.what-we-do .single-block h5 a {
+    color: #2d2d43;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.what-we-do .single-block .icon.color-one {
+    color: #ef4631;
+}
+
+.flaticon-note:before {
+    content: "\f10a";
+}
+.what-we-do .single-block .icon {
+    width: 121px;
+    height: 121px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.08);
+    line-height: 119px;
+    font-size: 45px;
+    margin: 0 auto;
+    position: relative;
+}
+.what-we-do .single-block .icon.color-two {
+    color: #2d2d43;
+}
+.what-we-do .single-block .icon.color-three {
+    color: #ef4132;
+}
+.what-we-do .single-block:hover h5 a {
+    text-shadow: 1px 1px 5px rgba(37,47,62,0.1);
+}
+.what-we-do .single-block:hover h5 a:hover{ color: #ef4132}
+.tran3s{  -webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out; }
+	
+
+h6, p {
+    
+    line-height: 30px !important;
+}
+
 ul.protfolio li a img { max-width: 100%;}
 
 .pad-tb2p{padding: 2% 0}
@@ -255,3 +339,7 @@ ul.protfolio li a img { max-width: 100%;}
 .pad-bottom0{ padding-bottom:0 !important;}
 .pad-left0{ padding-left:0 !important;}
 .pad-right0{ padding-right:0 !important;}
+
+
+
+
