@@ -10,22 +10,55 @@ Black #101010
 
 */
 @import url('../font/flaticon.css');
+@import url('./animations.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700|Poppins:300,400,500,600');
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
 body{font-family: 'Poppins', sans-serif;  color: rgba(0,0,0,0.65); }
 
-header {
+/* header {
 	animation: Gradient 15s ease infinite;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	background-size: 400% 400%;
-	background-image: url('../images/home-bg.svg'), url('../images/home-bg-bottom.svg'),linear-gradient(-45deg, #f27623, #ef4132, #f27623, #ef4132);
+	background-image: url('../images/ambient-min.jpg'),linear-gradient(-45deg, #f27623, #ef4132, #f27623, #ef4132);
 	color: #fff;
 	overflow: hidden;
 	position: relative;
 	height: 90vh;
+} */
+header{overflow: hidden; position: relative;}
+.header-blog {
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+	
 }
+
+.header-blog,  footer, .bg-orange {
+	background-image: url(../images/squircle-min.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+footer { height: 50vh; padding:40px 0 !important; color:#fff; float: left; width: 100%}
+footer a {color:#fff;}
+
+.bg-animation {
+    -webkit-animation: bg-animation 15s ease-in-out infinite;
+    animation: bg-animation 15s ease-in-out infinite;
+    animation-name: bg-animation;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-delay: initial;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+}
+
 header:after {
     background: transparent url(../images/btm-design.svg) top center no-repeat;
     -webkit-background-size: 5223px 186px;
@@ -68,8 +101,7 @@ nav ul a:hover {
  box-shadow: inset 0px 2px #ef4631;
 }
 
-footer { padding:40px 0 !important; color:#fff;}
-footer a {color:#fff;}
+
 h6{ line-height:30px !important} 
 	
 .banner-h1{ font-size:45px;letter-spacing: 1.5px; text-transform: uppercase; color:#fff;}
@@ -84,7 +116,7 @@ h6{ line-height:30px !important}
 .btn-white{ border: 2px solid #fff !important;;
     background: #fff !important; color: #ef4132 !important}
 
-	.bg-orange{background:#ef4132; padding:25px 0}
+.bg-orange{ padding:25px 0}
 	
 .services h5{ font-size:25px; font-weight:500}
 .services ul li a:hover div.card-panel{ background:linear-gradient(-45deg, #f27623, #ef4132); color:#fff;
