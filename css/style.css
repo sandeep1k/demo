@@ -40,9 +40,7 @@ header{overflow: hidden; position: relative;}
 	background-image: url(../images/squircle-min.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	float: left;
-	width: 100%;
-	clear: both;
+	
 }
 
 
@@ -59,7 +57,7 @@ header{overflow: hidden; position: relative;}
     background-color: transparent;
 }
 
-footer { height: 50vh; padding:40px 0 !important; color:#fff; float: left; width: 100%}
+footer { height: 100%; padding:40px 0 !important; color:#fff; float: left; width: 100%}
 footer a {color:#fff;}
 
 .bg-animation {
@@ -137,7 +135,7 @@ h6{ line-height:30px !important}
 .services h5{ font-size:25px; font-weight:500}
 .services ul li a:hover div.card-panel{ background:linear-gradient(-45deg, #f27623, #ef4132); color:#fff;
 	transition: box-shadow .25s, -webkit-box-shadow .25s;
-    box-shadow: 0px 20px 20px #a3a3a3;     
+    box-shadow: 0px 20px 20px #0000003b;     
 	transform: translate(0,-20px);
     transition-delay: 0s; transition: all 250ms cubic-bezier(.02,.01,.47,1) 0s}
 	
@@ -215,12 +213,13 @@ h6{ line-height:30px !important}
 		padding:10px;
 	}
 	header, footer{ height: 100% !important;
+		clear: both;
 		}
 	
 	.main-wrapper h2 {
 			line-height: 40px !important;
 			font-size: 30px !important;
-			margin-left: 0px !important;
+			
 		
 		}
 		.what-we-do h3 {
@@ -303,7 +302,7 @@ float: left;
 	position: relative;
 	}
 .main-wrapper p {line-height: 35px; margin: 32px 0 40px 0; }
-.main-wrapper h2 { line-height: 60px; font-size: 40px; margin-left: -65px;}
+.main-wrapper h2 { line-height: 60px; font-size: 40px;}
 .main-wrapper h4 { font-size: 24px; font-weight: 500 !important;}	
 .main-wrapper h4::before {
 		content: "\f114";
