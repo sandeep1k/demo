@@ -39,9 +39,25 @@ header{overflow: hidden; position: relative;}
 .header-blog,  footer, .bg-orange {
 	background-image: url(../images/squircle-min.jpg);
 	background-size: cover;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+	clear: both;
 }
 
+
+*,
+*:focus {
+    outline: inherit;
+}
+
+*::-moz-selection {
+    background-color: transparent;
+}
+
+*::selection {
+    background-color: transparent;
+}
 
 footer { height: 50vh; padding:40px 0 !important; color:#fff; float: left; width: 100%}
 footer a {color:#fff;}
@@ -185,7 +201,7 @@ h6{ line-height:30px !important}
 
 
 
-@media (min-width:0px) and (max-width:600px){
+@media (max-width:767px){
 
 	p{font-size:16px;}
 	.indexP-text {text-align: center}
@@ -198,7 +214,7 @@ h6{ line-height:30px !important}
         width: 47%;
 		padding:10px;
 	}
-	header, footer{ background-size: 100% 120% !important;
+	header, footer{ background-size: 100% 120% !important; height: 100% !important;
 		}
 	
 	.main-wrapper h2 {
@@ -229,6 +245,11 @@ h6{ line-height:30px !important}
 	h1,h2,h3,h4 {font-weight: 600 !important;}
 }
 
+@media (min-width:768px) and (max-width:1024px){
+	
+	.p-spec {padding: 1px 15px !important;}
+	.services ul li a div.card-panel {min-height: 300px !important;}	
+}
 @media (min-width:992px) and (max-width:1200px){
 
 	.logoClass {
@@ -238,11 +259,7 @@ h6{ line-height:30px !important}
 
 }
 
-@media (min-width:768px) and (max-width:1024px){
-	
-	.p-spec {padding: 1px 15px !important;}
-	.services ul li a div.card-panel {min-height: 300px !important;}	
-}
+
 
 
 @media (min-width:1201px) and (max-width:1365px) {
