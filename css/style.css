@@ -214,7 +214,7 @@ h6{ line-height:30px !important}
         width: 47%;
 		padding:10px;
 	}
-	header, footer{ background-size: 100% 120% !important; height: 100% !important;
+	header, footer{ height: 100% !important;
 		}
 	
 	.main-wrapper h2 {
