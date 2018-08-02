@@ -85,7 +85,7 @@ document.getElementById('sliderContent').innerHTML = `
 <div class="carousel-item " href="#one!"> <div class="col s12 l7">  
     <h1 class="banner-h1"> INNOVATIVE MOBILE & WEB SOLUTIONS </h1>
     <h5> TRANSFORM YOUR BUSINESS THROUGH THE POWER OF BEST ENTERPRISE </h5>
-     <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25"><i class="material-icons right">trending_flat</i>View Latest Work</a>
+     <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25"><i class="material-icons right">chevron_right</i>View Latest Work</a>
 </div>
     <div class="col s12 l5"> 
         <object type="image/svg+xml" data="./images/app-development.svg" alt="App Development"> </object>
@@ -95,7 +95,7 @@ document.getElementById('sliderContent').innerHTML = `
   <div class="carousel-item " href="#two!"> <div class="col s12 l7">  
     <h1 class="banner-h1">Mobile app development </h1>
     <h5> TRANSFORM YOUR BUSINESS THROUGH THE POWER OF BEST ENTERPRISE </h5>
-     <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25"><i class="material-icons right">trending_flat</i>View Latest Work</a>
+     <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25"><i class="material-icons right">chevron_right</i>View Latest Work</a>
 </div>
     <div class="col s12 l5"> 
         <object type="image/svg+xml" data="./images/about-banner.svg" alt="App Development"> </object>
@@ -106,7 +106,7 @@ document.getElementById('sliderContent').innerHTML = `
   <div class="carousel-item " href="#three!"> <div class="col s12 l5">  
     <h1 class="banner-h1"> Website Development </h1>
     <h5> TRANSFORM YOUR BUSINESS THROUGH THE POWER OF BEST ENTERPRISE </h5>
-     <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25"><i class="material-icons right">trending_flat</i>View Latest Work</a>
+     <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25"><i class="material-icons right">chevron_right</i>View Latest Work</a>
 </div>
     <div class="col s12 l7"> 
         <object type="image/svg+xml" data="./images/services-banner.svg" alt="App Development"> </object>
@@ -116,7 +116,7 @@ document.getElementById('sliderContent').innerHTML = `
   <div class="carousel-item " href="#four!"> <div class="col s12 l7">  
     <h1 class="banner-h1"> Digital Marketing </h1>
     <h5> TRANSFORM YOUR BUSINESS THROUGH THE POWER OF BEST ENTERPRISE </h5>
-     <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25"><i class="material-icons right">trending_flat</i>View Latest Work</a>
+     <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25"><i class="material-icons right">chevron_right</i>View Latest Work</a>
 </div>
     <div class="col s12 l5"> 
         <object type="image/svg+xml" data="./images/app-development.svg" alt="App Development"> </object>
@@ -127,7 +127,7 @@ document.getElementById('sliderContent').innerHTML = `
 
 
 //footer
-document.getElementById('mainFooter').innerHTML = ` <footer class="main-gredient">
+document.getElementById('mainFooter').innerHTML = ` <footer class="bg-animation">
 <div class="container">
     <div class="row mar-bottom"> 
         <div class="col s12 m12 xl3 l3">  
