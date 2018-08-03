@@ -374,6 +374,21 @@ h2 {
 	transition: all .3s ease-in-out; }
 .services-sec { padding: 100px 0}	
 
+.right-sec{float: right !important;
+	background: #414141 !important;
+	padding: 0 !important;	}
+.left-sec {
+	right:500px !important;	
+	
+}
+.right-screen {     
+	float: right;
+	width: 45% !important;
+	padding: 10%  0 !important;
+	
+
+}
+
 h6, p {
     
     line-height: 30px !important;
@@ -383,7 +398,7 @@ ul.protfolio li a img { max-width: 100%;}
 
 .minH-270{ min-height: 270px}
 
-.box-services { background: #ef4132; height: 600px; width: 70%; padding: 0 1%; margin: 10% 0; position: relative;}
+.box-services { background: #ef4132; height: 600px; width: 70%; padding: 0 1%; margin: 10% 0; position: relative; float: left;}
 .box-services-right { position: absolute; top: 0; right:-18%; z-index: 3; background: #fff;   padding: 4%;
 	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
