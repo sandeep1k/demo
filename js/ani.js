@@ -80,43 +80,43 @@ document.getElementById('mainHeader').innerHTML = `<div id="navi">
 
 //slider
 document.getElementById('sliderContent').innerHTML = `
-<div class="carousel-item " href="#one!"> <div class="col s12 l7 m7">  
+<div class="carousel-item " href="#one!"> <div class="col s12 xl7">  
     <h1 class="banner-h1"> INNOVATIVE MOBILE & WEB SOLUTIONS </h1>
     <h5> TRANSFORM YOUR BUSINESS THROUGH THE POWER OF BEST ENTERPRISE </h5>
      <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25">View Latest Work</a>
 </div>
-    <div class="col s12 l5 m5"> 
+    <div class="col s12 xl5"> 
         <object type="image/svg+xml" data="./images/app-development.svg" alt="App Development"> </object>
     </div> 
   </div>
 
-  <div class="carousel-item " href="#two!"> <div class="col s12 l6 m6">  
+  <div class="carousel-item " href="#two!"> <div class="col s12 xl6">  
     <h1 class="banner-h1">Mobile app development </h1>
     <h5> We build mobile apps for every user, every platform and every industry </h5>
      <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25">View Latest Work</a>
 </div>
-    <div class="col s12 l5 m5"> 
+    <div class="col s12 xl5"> 
         <object type="image/svg+xml" data="./images/about-banner.svg" alt="App Development"> </object>
     </div> 
   </div>
 
 
-  <div class="carousel-item " href="#three!"> <div class="col s12 l5 m5">  
+  <div class="carousel-item " href="#three!"> <div class="col s12 xl5">  
     <h1 class="banner-h1"> Custom Web Development </h1>
     <h5> Interested in our custom website development services? </h5>
      <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25">View Latest Work</a>
 </div>
-    <div class="col s12 l7 m7"> 
+    <div class="col s12 xl7"> 
         <object type="image/svg+xml" data="./images/services-banner.svg" alt="App Development"> </object>
     </div> 
   </div>
 
-  <div class="carousel-item " href="#four!"> <div class="col s12 l6 m6">  
+  <div class="carousel-item " href="#four!"> <div class="col s12 xl6">  
     <h1 class="banner-h1"> Digital Marketing </h1>
     <h5> TRANSFORM YOUR BUSINESS THROUGH THE POWER OF BEST ENTERPRISE </h5>
      <a href="javaScript:void(0)" class="waves-effect waves-light btn-large btn-white mar-tb25">View Latest Work</a>
 </div>
-    <div class="col s12 l5 m5"> 
+    <div class="col s12 xl5"> 
         <object type="image/svg+xml" data="./images/app-development.svg" alt="App Development"> </object>
     </div> 
   </div>
