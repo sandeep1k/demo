@@ -528,6 +528,8 @@ h2 {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
+.arw-ani {padding-top: 15px}
+
 
 .services-sec {
   padding: 100px 0;
