@@ -355,9 +355,10 @@ h6 {
   ul.tell-project li h3 {
     margin: 0;
   }
-  ul.tell-project li {
-    width: 30%;
+  .text-c,ul.tell-project li {
+    text-align: center;
   }
+  
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
